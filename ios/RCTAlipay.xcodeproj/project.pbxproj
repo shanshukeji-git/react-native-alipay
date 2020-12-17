@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F724E5F258A15FC00A1EFAB /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F724E5E258A15FC00A1EFAB /* AlipaySDK.framework */; };
+		5F538993258AE9380023FB7F /* libAlipaySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F538992258AE9380023FB7F /* libAlipaySDK.a */; };
 		B3E7B58A1CC2AC0600A0062D /* RCTAlipay.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RCTAlipay.m */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +25,7 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRCTAlipay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTAlipay.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F724E5E258A15FC00A1EFAB /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		5F538992258AE9380023FB7F /* libAlipaySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAlipaySDK.a; sourceTree = "<group>"; };
 		6D62E64F21AA80C1005C369B /* APayAuthInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APayAuthInfo.h; sourceTree = "<group>"; };
 		6D62E65021AA80C1005C369B /* AlipaySDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlipaySDK.h; sourceTree = "<group>"; };
 		6DD444CD1F7D9E0A007B6D6C /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F724E5F258A15FC00A1EFAB /* AlipaySDK.framework in Frameworks */,
+				5F538993258AE9380023FB7F /* libAlipaySDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +64,7 @@
 				6D62E64F21AA80C1005C369B /* APayAuthInfo.h */,
 				84722CFD24644D5200308200 /* AFServiceCenter.h */,
 				84722CFE24644D5200308200 /* AFServiceResponse.h */,
-				5F724E5E258A15FC00A1EFAB /* AlipaySDK.framework */,
+				5F538992258AE9380023FB7F /* libAlipaySDK.a */,
 				6DD444CD1F7D9E0A007B6D6C /* AlipaySDK.bundle */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
